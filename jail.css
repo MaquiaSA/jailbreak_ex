@@ -1,0 +1,38 @@
+body {
+    font-family: inherit, "Helvetica",
+        Times, serif;
+    color: white;
+    background-color: black
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+}
+
+.divclass {
+    margin: auto;
+}
+
+.picture {
+    margin: auto;
+}
+
+.body {
+    margin: auto;
+    height: auto;
+    width: 70%;
+
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin: auto;
+}
+
+h6 {
+    color: white;
+}
