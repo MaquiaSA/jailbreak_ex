@@ -12,7 +12,7 @@
 <body>
     <div class="body">
 
-        <script src="jail.js"></script>
+        <script src="script.js"></script>
         <div class="divclass center" style="background-color: rgb(224, 52, 52)">
             <h1 id="topic">Jail map control</h1>
         </div>
@@ -32,9 +32,9 @@
                 <div id="buzzerStat">off</div>
             </div>
             <div style="width : 33%;">
-                <button id="door">close</button><br>
-                <button id="light">off</button><br>
-                <button id="buzzer">off</button><br></div>
+                <button id="door" onclick="putData('door')">open</button><br>
+                <button id="light" onclick="putData('light')">on</button><br>
+                <button id="buzzer" onclick="putData('buzzer')">off</button><br></div>
         </div>
     </div>
 </body>
