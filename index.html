@@ -5,13 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>jailby2gorillas</title>
+    <link rel="stylesheet" href="jail.css">
 </head>
 
 <body>
-    <script src="scripts.js"></script>
-    <div id="status"></div>
+    <div class="body">
+
+        <script src="jail.js"></script>
+        <div class="divclass center" style="background-color: rgb(224, 52, 52)">
+            <h1 id="topic">Jail map control</h1>
+        </div>
+        <div class="center">
+            <img width="400" src="picture.jpg" />
+        </div>
+        <br>
+        <div class="middle">
+            <div style="width : 33%; padding-left: 50px">
+                Door<br>
+                Light<br>
+                Buzzer
+            </div>
+            <div style="width: 33%">
+                <div id="doorStat">close</div>
+                <div id="lightStat">off</div>
+                <div id="buzzerStat">off</div>
+            </div>
+            <div style="width : 33%;">
+                <button id="door">close</button><br>
+                <button id="light">off</button><br>
+                <button id="buzzer">off</button><br></div>
+        </div>
+    </div>
 </body>
 
 </html>
