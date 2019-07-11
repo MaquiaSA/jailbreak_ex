@@ -1,6 +1,5 @@
 body {
-    font-family: inherit, "Helvetica",
-        Times, serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
     color: white;
     background-color: black
 }
@@ -31,6 +30,15 @@ body {
     align-items: center;
     width: 200px;
     margin: auto;
+}
+
+.width33 {
+    width: 33%;
+}
+
+.pad {
+    padding-left: 20px;
+    padding-bottom: 5px;
 }
 
 h6 {

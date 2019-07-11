@@ -9,29 +9,31 @@
     <link rel="stylesheet" href="jail.css">
 </head>
 
-<body background = 'bg.jpg'>
+<body background='bg.jpg'>
     <div class="body">
 
         <script src="script.js"></script>
         <div class="divclass center" style="background-color: rgb(224, 52, 52)">
-            <h1 id="topic">Jail map control</h1>
+            <h1 id="topic">Jail Control</h1>
         </div>
         <div class="center">
             <img width="400" src="picture.jpg" />
         </div>
         <br>
         <div class="middle">
-            <div style="width : 33%;">
-                Door<br>
-                Light<br>
-                Buzzer
+            <div class="width33">
+                <b>
+                    <div class="pad">Door</div>
+                    <div class="pad">Light</div>
+                    <div class="pad">Buzzer</div>
+                </b>
             </div>
-            <div style="width: 33%; padding-left: 20px">
-                <span id="doorStat">close</span>
-                <span id="lightStat">off</span>
-                <span id="buzzerStat">off</span>
+            <div class="width33">
+                <div class="pad" id="doorStat">close</div>
+                <div class="pad" id="lightStat">off</div>
+                <div class="pad" id="buzzerStat">off</div>
             </div>
-            <div style="width : 33%; padding-left: 10px">
+            <div class="width33 pad">
                 <button id="door" onclick="putData('door')">open</button><br>
                 <button id="light" onclick="putData('light')">on</button><br>
                 <button id="buzzer" onclick="putData('buzzer')">off</button><br></div>
